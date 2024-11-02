@@ -1,12 +1,14 @@
 import { NavLink } from "react-router-dom"
 import { Footer } from "./Footer"
+import Main from "./../assets/Main.png"
+import Cursos from "./../assets/Cursos.png"
 export const Horario = () => {
     const shifts = [
         {
             title: "Turno Mañana",
             time: "8:00 am - 12:00 pm",
             bgColor: "bg-yellow",
-            image: "/src/assets/Main.png",
+            image: Main,
             courses: [
                 "Computación",
                 "Diseño Gráfico",
@@ -18,7 +20,7 @@ export const Horario = () => {
             title: "Turno Tarde",
             time: "1:30 pm - 5:00 pm",
             bgColor: "bg-blue",
-            image: "/src/assets/Cursos.png",
+            image: Cursos,
             courses: [
                 "Computación",
                 "Diseño Gráfico",
