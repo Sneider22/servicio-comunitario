@@ -15,6 +15,7 @@ export default function Contacto() {
                         <div>
                             <h2 className="text-2xl font-semibold mb-4">Información de Contacto</h2>
                             <div className="space-y-4">
+                                
                                 <div className="flex items-center">
                                     <FontAwesomeIcon icon={faMapMarkerAlt} className="h-6 w-6 text-blue-500 mr-2" />
                                     <span>Av. Rómulo Gallegos Centro Juvenil Don Bosco, piso 1, Boleíta Norte. Municipio Sucre, Estado Miranda.</span>
@@ -43,22 +44,9 @@ export default function Contacto() {
                         </div>
 
                         <div>
-                            <h2 className="text-2xl font-semibold mb-4">Envíanos un Mensaje</h2>
-                            <form className="space-y-4">
-                                <div>
-                                    <label htmlFor="name" className="block text-sm font-medium text-gray-700">Nombre</label>
-                                    <input type="text" id="name" name="name" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" />
-                                </div>
-                                <div>
-                                    <label htmlFor="email" className="block text-sm font-medium text-gray-700">Correo Electrónico</label>
-                                    <input type="email" id="email" name="email" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" />
-                                </div>
-                                <div>
-                                    <label htmlFor="message" className="block text-sm font-medium text-gray-700">Mensaje</label>
-                                    <textarea id="message" name="message" rows={4} className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50"></textarea>
-                                </div>
-                                <button type="submit" className="w-full bg-blue-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-blue-700 transition duration-300">Enviar Mensaje</button>
-                            </form>
+                            <div className="flex items-center">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d561.1501475396168!2d-66.82522768352437!3d10.493514491899063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a590072e9c66b%3A0xc89409db48c9189f!2sCentro%20de%20Capacitaci%C3%B3n%20Laboral%20Barrios%20unidos%20de%20Petare!5e1!3m2!1ses-419!2sus!4v1730515293680!5m2!1ses-419!2sus" className='w-[600px] h-[450px] b-0 rounded-md' allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                            </div>
                         </div>
                     </div>
                 </div>
