@@ -55,37 +55,37 @@ export const Main = () => {
                 <div className="flex w-[80vw] items-center justify-start gap-4">
                     <FontAwesomeIcon id="left" className={showLeftArrow ? "hidden text-blue text-2xl" : "hidden"} onClick={() => handleScrollLeft()} icon={faChevronLeft} />
                     <div className="flex gap-4 max-md:overflow-x-scroll justify-start items-start" id="cursos">
-                        <div className="flex flex-col gap-2 text-sm items-center text-center justify-center">
+                        <NavLink to="/cursos/Asistente Administrativo" className="flex flex-col gap-2 text-sm items-center text-center justify-center">
                             <div className="w-16 h-16 rounded-full bg-blue flex items-center justify-center">
                                 <FontAwesomeIcon className="text-white text-3xl" icon={faBriefcase} />
                             </div>
                             Asist. Administrativo
-                        </div>
+                        </NavLink>
 
-                        <div className="flex flex-col gap-2 text-sm items-center text-center justify-center">
+                        <NavLink to="/cursos/Computación" className="flex flex-col gap-2 text-sm items-center text-center justify-center">
                             <div className="w-16 h-16 rounded-full bg-blue flex items-center justify-center">
                                 <FontAwesomeIcon className="text-white text-3xl" icon={faLaptop}></FontAwesomeIcon>
                             </div>
                             Computación
-                        </div>
-                        <div className="flex flex-col gap-2 text-sm items-center text-center justify-center">
+                        </NavLink>
+                        <NavLink to="/cursos/Diseño Gráfico" className="flex flex-col gap-2 text-sm items-center text-center justify-center">
                             <div className="w-16 h-16 rounded-full bg-blue flex items-center justify-center">
                                 <FontAwesomeIcon className="text-white text-3xl" icon={faPenNib}></FontAwesomeIcon>
                             </div>
                             Diseño Gráfico
-                        </div>
-                        <div className="flex flex-col gap-2 text-sm items-center text-center">
+                        </NavLink>
+                        <NavLink to="/cursos/Marketing Digital" className="flex flex-col gap-2 text-sm items-center text-center">
                             <div className="w-16 h-16 rounded-full bg-blue flex items-center justify-center">
                                 <FontAwesomeIcon className="text-white text-3xl" icon={faChartSimple}></FontAwesomeIcon>
                             </div>
                             Marketing Digital
-                        </div>
-                        <div className="flex flex-col gap-2 text-sm items-center text-center">
+                        </NavLink>
+                        <NavLink to="/cursos/Publicidad" className="flex flex-col gap-2 text-sm items-center text-center">
                             <div className="w-16 h-16 rounded-full bg-blue flex items-center justify-center">
                                 <FontAwesomeIcon className="text-white text-3xl" icon={faBullhorn}></FontAwesomeIcon>
                             </div>
                             Publicidad
-                        </div>
+                        </NavLink>
 
                     </div>
                     <FontAwesomeIcon id="right" className={showRightArrow ? "text-blue text-2xl" : "hidden"} onClick={() => handleScrollRight()} icon={faChevronRight}></FontAwesomeIcon>

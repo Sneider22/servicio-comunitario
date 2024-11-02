@@ -55,7 +55,7 @@ export default function PreguntasFrecuentes() {
         <div>
             <Header />
             <div className="max-w-6xl mx-auto p-4 space-y-4  bg-gray-50">
-                <div className="max-w-3xl mx-auto px-4 py-16 ">
+                <div className="max-w-3xl mx-auto px-4 py-8">
                     <h1 className="text-4xl max-md:text-3xl max-md:w-[90%] md:w-[60%] font-bold text-center mb-12 border-b-2 pb-6 w-[70%] border-blue mx-auto">Preguntas Frecuentes</h1>
 
                     <div className="space-y-4">

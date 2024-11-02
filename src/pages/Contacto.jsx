@@ -1,4 +1,4 @@
-import { faIdCard, faMailBulk, faMapMarkerAlt, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faIdCard, faMailBulk, faMapMarkerAlt, faPhone, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
@@ -8,7 +8,7 @@ export default function Contacto() {
         <div>
             <Header />
             <div className="max-w-6xl mx-auto p-4 space-y-4 bg-gray-50">
-                <div className="max-w-7xl mx-auto px-4 py-16">
+                <div className="max-w-7xl mx-auto px-4 py-8">
                     <h1 className="text-4xl max-md:text-3xl max-md:w-[70%] md:w-[40%] font-bold text-center mb-12 border-b-2 pb-6 w-[30%] border-blue mx-auto">Contáctanos</h1>
 
                     <div className="grid md:grid-cols-2 gap-8">
@@ -17,27 +17,33 @@ export default function Contacto() {
                             <div className="space-y-4">
 
                                 <div className="flex items-center">
-                                    <FontAwesomeIcon icon={faMapMarkerAlt} className="h-6 w-6 text-blue mr-2" />
+                                    <FontAwesomeIcon icon={faMapMarkerAlt} className="h-6 w-6  mr-4" />
                                     <span className="max-md:w-[250px] md:w-[400px]">Av. Rómulo Gallegos Centro Juvenil Don Bosco, piso 1, Boleíta Norte. Municipio Sucre, Estado Miranda.</span>
                                 </div>
                                 <div className="flex items-center">
-                                    <FontAwesomeIcon icon={faPhone} className="h-6 w-6 text-blue mr-2" />
+                                    <FontAwesomeIcon icon={faPhone} className="h-6 w-6  mr-4" />
                                     <div className="flex flex-col">
                                         <p>+58 212-234-5587</p>
                                         <p>+58 424-206-9080</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center">
-                                    <FontAwesomeIcon icon={faIdCard} className="h-6 w-6 text-blue mr-2" />
-                                    <span className="mr-2 font-medium">RIF: </span>
-                                    <span>J-30234355-0</span>
+                                    <FontAwesomeIcon icon={faIdCard} className="h-6 w-6  mr-4" />
+                                    <span> J-30234355-0</span>
                                 </div>
                                 <div className="flex items-center">
-                                    <FontAwesomeIcon icon={faMailBulk} className="h-6 w-6 text-blue mr-2" />
+                                    <FontAwesomeIcon icon={faMailBulk} className="h-6 w-6  mr-4" />
                                     <a href="mailto:juventudytrabajobup@gmail.com" className="mr-2 text-blue" >juventudytrabajobup@gmail.com</a>
                                 </div>
                             </div>
 
+                            <h2 className="text-2xl font-semibold mt-8 mb-4">Directiva</h2>
+                            <p className="mb-2">
+                                <FontAwesomeIcon icon={faUser} className="h-4 w-4  mr-2" /> Directora Luz Lamas
+                            </p>
+                            <p className="mb-2">
+                                <FontAwesomeIcon icon={faPhone} className="h-4 w-4  mr-2" /> +58-416-426-5145
+                            </p>
                             <h2 className="text-2xl font-semibold mt-8 mb-4">Horario de Atención</h2>
                             <p className="mb-2">Lunes a Viernes: 8:00 AM - 2:30 PM</p>
                         </div>

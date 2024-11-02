@@ -41,9 +41,9 @@ const headerMobile = () => {
 function headerDesktop() {
     return (
         <header className="bg-white shadow-sm p-4 h-[15vh] shadow-[#00000048] flex items-center   px-24 py-9 justify-between sticky top-0 z-20">
-            <div className="flex items-center">
+            <NavLink to="/" className="flex items-center">
                 <img className="mx-auto h-20 rounded-full" src={Logo} alt="" />
-            </div>
+            </NavLink>
             <ul className="flex space-x-4">
                 <NavLink to="/">Inicio</NavLink>
                 <NavLink to="/quienes-somos">Quienes somos</NavLink>

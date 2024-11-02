@@ -7,6 +7,7 @@ import Testimonios from "./pages/Testimonios"
 import PreguntasFrecuentes from "./pages/FAQ"
 import Contacto from "./pages/Contacto"
 import QuienesSomos from "./pages/QuienesSomos"
+import { DetalleCurso } from "./pages/DetalleCurso"
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/preguntas-frecuentes" element={<PreguntasFrecuentes />}></Route>
         <Route path="/contacto" element={<Contacto />}></Route>
 
+        <Route path="/cursos/:curso" element={<DetalleCurso />}></Route>
         {/* 404 */}
         <Route path="*" element={<NotFound />}></Route>
 
