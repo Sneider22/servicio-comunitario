@@ -108,7 +108,7 @@ export const Horario = () => {
                         {[...Array(5)].map((_, i) => (
                             <div key={i} className={`relative ${i === 2 ? "col-span-2 " : ""}`}>
                                 <img
-                                    src="/src/assets/Main.png"
+                                    src={Main}
                                     alt={`School image ${i + 1}`}
                                     width={300}
                                     height={200}
