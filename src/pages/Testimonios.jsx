@@ -21,10 +21,10 @@ const TestimonialCard = ({ name, course, year, content, rating }) => (
 export default function Testimonios() {
     const testimonials = [
         {
-            name: "María González",
+            name: "Luis Pico",
             course: "Diseño Gráfico",
             year: 2023,
-            content: "El curso de Diseño Gráfico superó mis expectativas. Los profesores son excelentes y el contenido es muy práctico. Ahora trabajo como freelancer y estoy muy agradecida por todo lo que aprendí.",
+            content: "Mi experiencia en el centro de capacitación fue muy bonita ya que crecí en diferentes ámbitos de mi vida, tanto en lo personal como en lo laboral y espiritual.",
             rating: 5
         },
         {
@@ -83,7 +83,7 @@ export default function Testimonios() {
                         </a>
                     </div>
                 </div>
-            <Footer />
+                <Footer />
             </div>
         </div>
     )

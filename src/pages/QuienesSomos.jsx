@@ -2,6 +2,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAward, faBookOpen, faUsers } from '@fortawesome/free-solid-svg-icons'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
+import AVEC from "./../assets/Logo AVEC.jpg"
+import InspectoriaSalesiana from "./../assets/Logo Inspectoria Salesiana.jpg"
+
 
 const FeatureCard = ({ icon: Icon, title, description }) => (
     <div className="bg-white p-6 rounded-lg shadow-md">
@@ -20,7 +23,7 @@ export default function QuienesSomos() {
                     <h1 className="text-4xl max-md:text-3xl max-md:w-[70%] md:w-[40%] font-bold text-center mb-12 border-b-2 pb-6 w-[30%] border-blue mx-auto">Quiénes Somos</h1>
 
                     <div className="mb-16">
-                        <h2 className="text-2xl font-semibold mb-4 border-b-2 pb-2 w-[20%] border-blue">Nuestra Historia</h2>
+                        <h2 className="text-2xl font-semibold mb-4 border-b-2 pb-2 md:w-[20%] max-md:w-[30%] border-blue">Nuestra Historia</h2>
                         <p className="text-gray-700 mb-4 text-pretty">
                             El Centro de Capacitación Barrios Unidos de Petare tiene su origen más remoto en la presencia salesiana que estuvo en un barrio llamado La Agricultura, en Petare. Esta comunidad salesiana viendo la necesidad de formación integral y de capacitación para el trabajo en los jóvenes de las zonas populares de Petare, responde a esta problemática creando el Centro de Capacitación Laboral “Barrios Unidos” aproximadamente par el año 1994.
                         </p>
@@ -51,20 +54,35 @@ export default function QuienesSomos() {
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold mb-4 border-b-2 pb-2 w-[20%] border-blue">Nuestra Misión</h2>
+                        <h2 className="text-2xl font-semibold mb-4 border-b-2 pb-2 md:w-[20%] max-md:w-[30%] border-blue">Nuestra Misión</h2>
                         <p className="text-gray-700 mb-4">
                             Somos una comunidad educativa pastoral que, con la presencia de Cristo vivo entre nosotros, educa para la vida a adolescentes y jóvenes dispuestos a capacitarse para el emprendimiento laboral, desde la promoción integral de la persona y con los nuevos desafíos que la sociedad venezolana nos impone, como aporte para la reconciliación y desarrollo del país, según el método de San Juan Bosco.
                         </p>
-                        <h2 className="text-2xl font-semibold mb-4 mt-8 border-b-2 pb-2 w-[20%] border-blue">Nuestra Visión</h2>
+                        <h2 className="text-2xl font-semibold mb-4 mt-8 border-b-2 pb-2 md:w-[20%] max-md:w-[30%] border-blue">Nuestra Visión</h2>
                         <p className="text-gray-700">
                             Adolescentes y Jóvenes formados integralmente, con actitud positiva, esperanzadora y solidaria. Líderes para el cambio, la reconciliación y el desarrollo del país a través de una eficiente capacitación y motivación laboral, emprendedora y evangelizadora
                         </p>
-                        <h2 className="text-2xl font-semibold mb-4 mt-8 border-b-2 pb-2 w-[20%] border-blue">Nuestros Valores</h2>
+                        <h2 className="text-2xl font-semibold mb-4 mt-8 border-b-2 pb-2 md:w-[20%] max-md:w-[30%] border-blue">Nuestros Valores</h2>
                         <ul className="list-disc list-inside text-gray-700">
                             <li>El Anuncio del Evangelio de Jesucristo, en los caminos del acompañamiento de la fe cristiana.</li>
                             <li>La Fraternidad de una familia educativa que se inspira en el sistema preventivo de Don Bosco.</li>
                             <li>La Calidad en la Capacitación del Trabajo con el emprendimiento solidario de la pedagogía laboral.</li>
                         </ul>
+                    </div>
+                    <div className="mt-8">
+                        <h2 className="text-2xl font-semibold mb-4 border-b-2 pb-2 md:w-[25%] max-md:w-[30%] border-blue">Instituciones aliadas</h2>
+                        <div className="flex justify-center gap-8 mb-8">
+                            <div className="bg-white p-6  w-[40%] rounded-lg  shadow-md shadow-[#b4b4b4] items-center flex flex-col">
+                                <img src={InspectoriaSalesiana} alt="Inspectoría Salesiana San Lucas" className="h-24 w-24 text-blue mb-4" />
+                                <h3 className="text-xl font-semibold mb-2">Inspectoría Salesiana San Lucas</h3>
+                                <p className="text-gray-600 text-sm text-center">Nuestro objetivo es educar Buenos Cristianos y Honrados Ciudadano, cómo lo hizo Don Bosco.</p>
+                            </div>
+                            <div className="bg-white p-6  w-[40%] rounded-lg  shadow-md shadow-[#b4b4b4] items-center flex flex-col">
+                                <img src={AVEC} alt="Asociación Venezolana de Educación Católica AVEC" className="h-24 w-24 text-blue mb-4" />
+                                <h3 className="text-xl font-semibold mb-2">Asociación Venezolana de Educación Católica AVEC</h3>
+                                <p className="text-gray-600 text-sm text-center">Educando, evangelizamos a Venezuela</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <Footer />

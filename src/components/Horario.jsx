@@ -2,7 +2,12 @@ import { NavLink } from "react-router-dom"
 import { Footer } from "./Footer"
 import Main from "./../assets/Main.png"
 import Cursos from "./../assets/Cursos.png"
+import Imagen1 from "./../assets/Imagen 1.jpg"
+import Imagen2 from "./../assets/Imagen 2.jpg"
+import Imagen3 from "./../assets/Imagen 3.jpg"
+
 export const Horario = () => {
+    const images = [Imagen1, Imagen2, Main, Imagen3, Cursos]
     const shifts = [
         {
             title: "Turno Mañana",
@@ -107,7 +112,7 @@ export const Horario = () => {
                         {[...Array(5)].map((_, i) => (
                             <div key={i} className={`relative ${i === 2 ? "col-span-2 " : ""}`}>
                                 <img
-                                    src="/src/assets/Main.png"
+                                    src={images[i]}
                                     alt={`School image ${i + 1}`}
                                     width={300}
                                     height={200}

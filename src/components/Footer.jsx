@@ -10,7 +10,7 @@ export const Footer = () => {
                     <img className="h-10 rounded-full" src={Logo} alt="" />
                     <p className="text-xs gap-2 font-medium flex flex-col items-start max-md:w-full md:w-[40%]">
                         Escuela para el Emprendimiento María Auxiliadora
-                        <span className="text-xs text-gray-700">© 2022. Todos los derechos reservados</span>
+                        <span className="text-xs text-gray-700">© {new Date().getFullYear()} Todos los derechos reservados</span>
                     </p>
                 </div>
                 <div className="flex gap-4">
