@@ -44,13 +44,25 @@ function headerDesktop() {
             <NavLink to="/" className="flex items-center">
                 <img className="mx-auto h-20 rounded-full" src={Logo} alt="" />
             </NavLink>
-            <ul className="flex space-x-4">
-                <NavLink to="/">Inicio</NavLink>
-                <NavLink to="/quienes-somos">Quienes somos</NavLink>
-                <NavLink to="/cursos">Cursos</NavLink>
-                <NavLink to="/testimonios">Testimonios</NavLink>
-                <NavLink to="/preguntas-frecuentes">Preguntas Frecuentes</NavLink>
-                <NavLink to="/contacto">Contacto</NavLink>
+            <ul className="flex space-x-4 items-center">
+                <NavLink className={
+                    window.location.pathname === '/' ? 'py-2 px-5 bg-yellow bg-opacity-40 rounded-md ' : ''
+                } to="/">Inicio</NavLink>
+                <NavLink className={
+                    window.location.pathname === '/quienes-somos' ? 'py-2 px-5 bg-yellow bg-opacity-40 rounded-md ' : ''
+                } to="/quienes-somos">Quienes somos</NavLink>
+                <NavLink className={
+                    window.location.pathname === '/cursos' ? 'py-2 px-5 bg-yellow bg-opacity-40 rounded-md ' : ''
+                } to="/cursos">Cursos</NavLink>
+                <NavLink className={
+                    window.location.pathname === '/testimonios' ? 'py-2 px-5 bg-yellow bg-opacity-40 rounded-md ' : ''
+                } to="/testimonios">Testimonios</NavLink>
+                <NavLink className={
+                    window.location.pathname === '/preguntas-frecuentes' ? 'py-2 px-5 bg-yellow bg-opacity-40 rounded-md ' : ''
+                } to="/preguntas-frecuentes">Preguntas Frecuentes</NavLink>
+                <NavLink className={
+                    window.location.pathname === '/contacto' ? 'py-2 px-5 bg-yellow bg-opacity-40 rounded-md ' : ''
+                } to="/contacto">Contacto</NavLink>
             </ul>
         </header>
     )

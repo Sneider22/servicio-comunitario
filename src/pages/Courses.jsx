@@ -5,7 +5,7 @@ import { Footer } from '../components/Footer'
 import { NavLink } from 'react-router-dom'
 
 const CourseCard = ({ title, description, duration, students, startDate, icon }) => (
-    <NavLink to={`/cursos/${title}`} className="bg-white p-6 rounded-lg shadow-md shadow-[#b4b4b4]" >
+    <NavLink to={`/cursos/${title}`} className="bg-white p-6 rounded-lg shadow-md shadow-[#b4b4b4] hover:shadow-2xl transition duration-300 hover:scale-105" >
         <h3 className="text-xl font-semibold mb-2" >
             {icon} {title}</h3>
         <p className="text-gray-600 mb-4">{description}</p>
