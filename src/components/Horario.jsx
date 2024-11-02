@@ -6,7 +6,7 @@ export const Horario = () => {
             title: "Turno Mañana",
             time: "8:00 am - 12:00 pm",
             bgColor: "bg-yellow",
-            image: "/src/assets/Main.png",
+            image: "./../assets/Main.png",
             courses: [
                 "Computación",
                 "Diseño Gráfico",
@@ -18,7 +18,7 @@ export const Horario = () => {
             title: "Turno Tarde",
             time: "1:30 pm - 5:00 pm",
             bgColor: "bg-blue",
-            image: "/src/assets/Cursos.png",
+            image: "./../assets/Cursos.png",
             courses: [
                 "Computación",
                 "Diseño Gráfico",
