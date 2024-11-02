@@ -83,8 +83,8 @@ export default function Testimonios() {
                         </a>
                     </div>
                 </div>
-            </div>
             <Footer />
+            </div>
         </div>
     )
 }

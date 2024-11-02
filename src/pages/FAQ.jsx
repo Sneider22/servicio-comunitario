@@ -29,23 +29,23 @@ export default function PreguntasFrecuentes() {
     const faqs = [
         {
             question: "¿Cuál es la duración de los cursos?",
-            answer: "La duración de nuestros cursos varía entre 3 y 4 meses, dependiendo del programa específico. Cada curso está diseñado para proporcionar una formación completa y práctica en el área de estudio."
+            answer: "La duración de nuestros cursos varía entre 4 y 5 meses, dependiendo del programa específico. Cada curso está diseñado para proporcionar una formación completa y práctica en el área de estudio."
         },
         {
             question: "¿Se otorga algún certificado al finalizar el curso?",
-            answer: "Sí, al completar satisfactoriamente el curso, los estudiantes reciben un certificado oficial de la Escuela para el Emprendimiento María Auxiliadora, avalado por instituciones educativas y empresariales reconocidas."
+            answer: "Sí, al completar satisfactoriamente el curso, los estudiantes reciben un certificado oficial de la Escuela para el Emprendimiento María Auxiliadora, avalado por instituciones educativas y empresariales reconocidas, con servicio opcional de fotografía digital, el costo es de $3 incluye 5 fotografías."
         },
         {
             question: "¿Cuáles son los requisitos para inscribirse?",
-            answer: "Los requisitos varían según el curso, pero generalmente incluyen ser mayor de 18 años, tener estudios secundarios completos y, en algunos casos, conocimientos básicos en el área de estudio.   Para más detalles, por favor consulta la información específica de cada curso."
+            answer: "Los requisitos para inscribirse en nuestros cursos son simples: Edad comprendida entre 18 y 30 años, Cédula de Identidad laminada (en caso de ser menor de edad, copia de la cédula del representante). Si tienes alguna pregunta adicional, no dudes en contactarnos."
         },
         {
             question: "¿Ofrecen modalidad online o solo presencial?",
-            answer: "Actualmente, ofrecemos cursos en modalidad presencial y algunos en formato híbrido (combinando clases presenciales y online). Estamos trabajando en ampliar nuestra oferta de cursos completamente online en el futuro próximo."
+            answer: "Actualmente, ofrecemos cursos en modalidad presencial y algunos en formato híbrido (combinando 3 clases presenciales y 1 clase online)."
         },
         {
-            question: "¿Hay opciones de financiamiento o becas disponibles?",
-            answer: "Sí, ofrecemos diferentes opciones de pago y financiamiento. También contamos con un programa de becas para estudiantes destacados o con necesidades económicas. Te invitamos a contactar a nuestro equipo de admisiones para más información sobre estas opciones."
+            question: "¿Tiene algún costo de inscripción y mensual?",
+            answer: "Sí, el costo de inscripción es de $30. El costo mensual de inscripción es de $15. Si tienes alguna pregunta adicional, no dudes en contactarnos."
         }
     ]
 

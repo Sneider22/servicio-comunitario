@@ -1,15 +1,12 @@
 import { NavLink } from "react-router-dom"
 import { Footer } from "./Footer"
-import Main from "./../assets/Main.png"
-import Cursos from "./../assets/Cursos.png"
-
 export const Horario = () => {
     const shifts = [
         {
             title: "Turno Mañana",
             time: "8:00 am - 12:00 pm",
             bgColor: "bg-yellow",
-            image: Main,
+            image: "/src/assets/Main.png",
             courses: [
                 "Computación",
                 "Diseño Gráfico",
@@ -21,7 +18,7 @@ export const Horario = () => {
             title: "Turno Tarde",
             time: "1:30 pm - 5:00 pm",
             bgColor: "bg-blue",
-            image: Cursos,
+            image: "/src/assets/Cursos.png",
             courses: [
                 "Computación",
                 "Diseño Gráfico",
@@ -108,7 +105,7 @@ export const Horario = () => {
                         {[...Array(5)].map((_, i) => (
                             <div key={i} className={`relative ${i === 2 ? "col-span-2 " : ""}`}>
                                 <img
-                                    src={Main}
+                                    src="/src/assets/Main.png"
                                     alt={`School image ${i + 1}`}
                                     width={300}
                                     height={200}

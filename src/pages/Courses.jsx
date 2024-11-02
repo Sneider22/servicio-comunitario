@@ -93,8 +93,8 @@ export default function Cursos() {
                         </a>
                     </div>
                 </div>
+            <Footer/>
             </div>
-            <Footer></Footer>
         </div>
     )
 }
