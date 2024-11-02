@@ -52,7 +52,7 @@ export const Horario = () => {
                 {shifts.map((shift, index) => (
                     <div
                         key={shift.title}
-                        className={`${shift.bgColor} rounded-lg overflow-hidden`}
+                        className={`${shift.bgColor} rounded-lg overflow-hidden hover:scale-[1.015] transition duration-300`}
                     >
                         <div className="aspect-video relative  ">
                             <img
@@ -82,7 +82,7 @@ export const Horario = () => {
                     </div>
                 ))}
             </div>
-            <div className="bg-blue text-white p-6 rounded-lg text-center">
+            <div className="bg-[#0b4d83] text-white p-6 rounded-lg text-center">
                 <p className="text-lg">
                     ¡No pierdas esta oportunidad de crecer y emprender con nosotros!
                 </p>
