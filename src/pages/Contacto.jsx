@@ -18,7 +18,7 @@ export default function Contacto() {
                                 
                                 <div className="flex items-center">
                                     <FontAwesomeIcon icon={faMapMarkerAlt} className="h-6 w-6 text-blue mr-2" />
-                                    <span className="w-20">Av. Rómulo Gallegos Centro Juvenil Don Bosco, piso 1, Boleíta Norte. Municipio Sucre, Estado Miranda.</span>
+                                    <span className="max-md:w-[250px] md:w-[400px]">Av. Rómulo Gallegos Centro Juvenil Don Bosco, piso 1, Boleíta Norte. Municipio Sucre, Estado Miranda.</span>
                                 </div>
                                 <div className="flex items-center">
                                     <FontAwesomeIcon icon={faPhone} className="h-6 w-6 text-blue mr-2" />
