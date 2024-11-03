@@ -82,7 +82,7 @@ export const Horario = () => {
                     </div>
                 ))}
             </div>
-            <div className="bg-[#0b4d83] text-white p-6 rounded-lg text-center">
+            <div className=" text-black shadow-md shadow-[#b4b4b4] p-6 rounded-lg text-center">
                 <p className="text-lg">
                     ¡No pierdas esta oportunidad de crecer y emprender con nosotros!
                 </p>

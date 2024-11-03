@@ -4,7 +4,7 @@ import { Header } from "../components/Header"
 import { Footer } from "../components/Footer"
 
 const TestimonialCard = ({ name, course, year, content, rating }) => (
-    <div className="bg-white p-6 rounded-lg shadow-md">
+    <div className="bg-white p-6 shadow-[#b4b4b4] hover:shadow-2xl hover:scale-105 duration-300  rounded-lg shadow-md">
         <div className="flex items-center mb-4">
             {[...Array(5)].map((_, i) => (
                 <FontAwesomeIcon icon={faStar} key={i} className={`h-5 w-5 ${i < rating ? 'text-yellow' : 'text-gray-300'}`} fill="currentColor" />

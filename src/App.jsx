@@ -9,7 +9,6 @@ import Contacto from "./pages/Contacto"
 import QuienesSomos from "./pages/QuienesSomos"
 import { DetalleCurso } from "./pages/DetalleCurso"
 
-
 function App() {
 
   return (
