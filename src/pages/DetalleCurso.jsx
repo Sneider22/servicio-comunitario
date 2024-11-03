@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom"
 import { Header } from "../components/Header"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBriefcase, faBullhorn, faCalendar, faCalendarAlt, faChartSimple, faCheck, faCheckCircle, faClock, faLaptop, faPenNib, faUsers } from "@fortawesome/free-solid-svg-icons"
+import { faBriefcase, faBullhorn, faCalendarAlt, faChartSimple, faCheck, faCheckCircle, faClock, faLaptop, faPenNib, faUsers } from "@fortawesome/free-solid-svg-icons"
 import { Footer } from "../components/Footer"
-
+import Profesor from "../assets/Profesor.avif"
 export const DetalleCurso = () => {
     let title = window.location.pathname.split("/")[2]
     title = decodeURI(title)
@@ -23,6 +23,7 @@ export const DetalleCurso = () => {
             students: 20,
             startDate: "10/1/2024",
             instructor: "Profesor A",
+            imageProfile: Profesor,
             detalle_instructor: "El profesor A es un experto en computación y programación, con experiencia en el campo de la programación de aplicaciones web y de escritorio.",
             icon: <FontAwesomeIcon icon={faLaptop} className="h-8 w-8 text-blue  mr-2" />
         },
@@ -33,6 +34,7 @@ export const DetalleCurso = () => {
             students: 15,
             startDate: "10/15/2024",
             instructor: "Profesor B",
+            imageProfile: Profesor,
             detalle_instructor: "El profesor B es un experto en programación y diseño de interfaces. Con experiencia en el campo de la programación de interfaces de usuario.",
             icon: <FontAwesomeIcon icon={faPenNib} className="h-8 w-8 text-blue  mr-2" />
         },
@@ -43,6 +45,7 @@ export const DetalleCurso = () => {
             students: 25,
             startDate: "12/1/2024",
             instructor: "Profesor C",
+            imageProfile: Profesor,
             detalle_instructor: "El profesor C tiene experiencia de la industria en roles de apoyo administrativo. Con una amplia experiencia trabajando en el sector financiero.",
             icon: <FontAwesomeIcon icon={faBriefcase} className="h-8 w-8 text-blue  mr-2" />
         },
@@ -53,6 +56,7 @@ export const DetalleCurso = () => {
             students: 20,
             startDate: "11/15/2024",
             instructor: "Profesor D",
+            imageProfile: Profesor,
             detalle_instructor: "El profesor E es un experto en publicidad y marketing. Con una amplia experiencia trabajando para grandes empresas a nivel nacional.",
             icon: <FontAwesomeIcon icon={faChartSimple} className="h-8 w-8 text-blue  mr-2" />
         },
@@ -63,6 +67,7 @@ export const DetalleCurso = () => {
             students: 15,
             startDate: "12/1/2024",
             instructor: "Profesor E",
+            imageProfile: Profesor,
             detalle_instructor: "El profesor E es un experto en publicidad y marketing. Con una amplia experiencia trabajando para grandes empresas a nivel nacional.",
             icon: <FontAwesomeIcon icon={faBullhorn} className="h-8 w-8 text-blue mr-2" />
         }
@@ -103,7 +108,7 @@ export const DetalleCurso = () => {
                     <div className="mt-16">
                         <h2 className="text-2xl font-semibold mb-4">Instructor del curso</h2>
                         <div className="flex items-center gap-4">
-                            <img src="https://randomuser.me/api/portraits/men/1.webp" className="w-16 h-16 rounded-full" alt="" />
+                            <img src={courses.filter((c) => c.title === title)[0].imageProfile} className="w-16 h-16 rounded-full" alt="" />
                             <div>
                                 <h3 className="text-xl font-semibold mt-4 mb-2">{courses.filter((c) => c.title === title)[0].instructor}</h3>
                                 <p>{courses.filter((c) => c.title === title)[0].detalle_instructor}</p>
