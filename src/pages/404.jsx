@@ -1,6 +1,6 @@
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import Logo from "/src/assets/Logo.png"
+import Logo from "/src/assets/Logo.webp"
 
 export default function NotFound() {
     return (

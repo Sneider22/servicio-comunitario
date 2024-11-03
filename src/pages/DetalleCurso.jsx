@@ -103,7 +103,7 @@ export const DetalleCurso = () => {
                     <div className="mt-16">
                         <h2 className="text-2xl font-semibold mb-4">Instructor del curso</h2>
                         <div className="flex items-center gap-4">
-                            <img src="https://randomuser.me/api/portraits/men/1.jpg" className="w-16 h-16 rounded-full" alt="" />
+                            <img src="https://randomuser.me/api/portraits/men/1.webp" className="w-16 h-16 rounded-full" alt="" />
                             <div>
                                 <h3 className="text-xl font-semibold mt-4 mb-2">{courses.filter((c) => c.title === title)[0].instructor}</h3>
                                 <p>{courses.filter((c) => c.title === title)[0].detalle_instructor}</p>

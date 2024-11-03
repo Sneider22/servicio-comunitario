@@ -2,8 +2,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAward, faBookOpen, faUsers } from '@fortawesome/free-solid-svg-icons'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
-import AVEC from "./../assets/Logo AVEC.jpg"
-import InspectoriaSalesiana from "./../assets/Logo Inspectoria Salesiana.jpg"
+import AVEC from "./../assets/Logo AVEC.webp"
+import InspectoriaSalesiana from "./../assets/Logo Inspectoria Salesiana.webp"
 
 
 const FeatureCard = ({ icon: Icon, title, description }) => (

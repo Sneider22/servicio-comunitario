@@ -1,6 +1,6 @@
 import { faFacebook, faInstagram, faTelegram } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Logo from "/src/assets/Logo.png"
+import Logo from "/src/assets/Logo.webp"
 
 export const Footer = () => {
     return (

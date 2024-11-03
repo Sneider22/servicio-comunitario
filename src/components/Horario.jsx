@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom"
 import { Footer } from "./Footer"
-import Main from "./../assets/Main.png"
-import Cursos from "./../assets/Cursos.png"
-import Imagen1 from "./../assets/Imagen 1.jpg"
-import Imagen2 from "./../assets/Imagen 2.jpg"
-import Imagen3 from "./../assets/Imagen 3.jpg"
+import Main from "./../assets/Main.webp"
+import Cursos from "./../assets/Cursos.webp"
+import Imagen1 from "./../assets/Imagen 1.webp"
+import Imagen2 from "./../assets/Imagen 2.webp"
+import Imagen3 from "./../assets/Imagen 3.webp"
 
 export const Horario = () => {
     const images = [Imagen1, Imagen2, Main, Imagen3, Cursos]

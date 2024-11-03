@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import Logo from '/src/assets/Logo.png';
+import Logo from '/src/assets/Logo.webp';
 
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

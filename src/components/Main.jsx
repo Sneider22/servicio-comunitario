@@ -43,7 +43,7 @@ export const Main = () => {
     }
 
     return (
-        <main className="h-[85vh] w-full bg-[url('/src/assets/Bg.png')] bg-cover bg-center">
+        <main className="h-[85vh] w-full bg-[url('/src/assets/Bg.webp')] bg-cover bg-center">
             <div className="md:ml-[5rem] max-md:ml-[2rem] md:w-[90%] h-full flex flex-col justify-center text-black display ">
                 <p className="bg-blue px-4 py-1 mb-1 max-md:w-[50%] md:w-[12rem] flex items-center justify-center text-white rounded-sm">Cursos disponibles</p>
                 <p className="mb-4 text-sm font-medium">Octubre 2024 - Febrero 2025</p>
