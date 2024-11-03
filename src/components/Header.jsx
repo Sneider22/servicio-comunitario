@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import Logo from '/src/assets/Logo.webp';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faContactBook, faGraduationCap, faHome, faQuestion, faQuoteLeft, faTimes, faUsers } from '@fortawesome/free-solid-svg-icons';
 const headerMobile = () => {
@@ -12,11 +12,35 @@ const headerMobile = () => {
         setIsOpen(!isOpen);
     };
 
+    const [isVisible, setIsVisible] = useState(true);
+    const [lastScrollTop, setLastScrollTop] = useState(0);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > lastScrollTop) {
+                // Scroll hacia abajo
+                setIsVisible(false);
+            } else {
+                // Scroll hacia arriba
+                setIsVisible(true);
+            }
+
+            setLastScrollTop(scrollTop <= 0 ? 0 : scrollTop); // Para evitar que se vuelva negativo
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [lastScrollTop]);
+
     return (
-        <nav className="bg-blue-700 p-4 text-black">
+        <nav className={` fixed top-0 left-0 right-0  z-20 bg-white transition ease-in duration-200 p-4 text-black ${isVisible ? 'translate-y-0' : 'translate-y-[-100%]'}`}>
             <div className="flex justify-between items-center">
                 <NavLink to="/" className="text-lg ml-[1rem] font-bold flex items-center justify-center gap-4">
-                    <img src={Logo} className="w-16 h-16 rounded-full" alt="" />
+                    <img loading='lazy' src={Logo} className="w-16 h-16 rounded-full" alt="" />
                     Escuela María Auxiliadora
                 </NavLink>
                 <div className="md:hidden">

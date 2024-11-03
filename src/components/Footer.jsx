@@ -7,7 +7,7 @@ export const Footer = () => {
         <footer className="bg-yellow p-4 rounded-lg">
             <div className="flex justify-between items-center">
                 <div className="w-full gap-6  flex items-center justify-start">
-                    <img className="h-10 rounded-full" src={Logo} alt="" />
+                    <img loading='lazy' className="h-10 rounded-full" src={Logo} alt="" />
                     <p className="text-xs gap-2 font-medium flex flex-col items-start max-md:w-full md:w-[40%]">
                         Escuela para el Emprendimiento María Auxiliadora
                         <span className="text-xs text-gray-700">© {new Date().getFullYear()} Todos los derechos reservados</span>

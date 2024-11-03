@@ -60,9 +60,9 @@ export default function Testimonios() {
     return (
         <div>
             <Header />
-            <div className="max-w-6xl mx-auto p-4 space-y-4 bg-gray-50">
+            <div className="max-w-6xl mx-auto max-md:py-20 p-4 space-y-4 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 py-8">
-                    <h1 className="text-4xl max-md:text-3xl max-md:w-[90%] md:w-[40%] font-bold text-center mb-12 border-b-2 pb-6 w-[60%] border-blue mx-auto">Testimonios de Nuestros Estudiantes</h1>
+                    <h1 className="text-4xl max-md:text-3xl max-md:w-[90%] md:w-[40%] font-bold text-center mb-12 border-b-2 pb-4 w-[60%] border-blue mx-auto max-sm:text-2xl">Testimonios de Nuestros Estudiantes</h1>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {testimonials.map((testimonial, index) => (

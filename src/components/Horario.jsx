@@ -56,6 +56,7 @@ export const Horario = () => {
                     >
                         <div className="aspect-video relative  ">
                             <img
+                                loading='lazy' 
                                 src={shift.image}
                                 alt="Students in classroom"
                                 className="object-fill w-full h-full"
@@ -82,11 +83,11 @@ export const Horario = () => {
                     </div>
                 ))}
             </div>
-            <div className=" text-black shadow-md shadow-[#b4b4b4] p-6 rounded-lg text-center">
-                <p className="text-lg">
+            <div className=" text-black shadow-md shadow-[#b4b4b4] max-md:text-md max-sm:text-sm md:text-lg p-6 rounded-lg text-center">
+                <p>
                     ¡No pierdas esta oportunidad de crecer y emprender con nosotros!
                 </p>
-                <p className="text-lg">
+                <p>
                     Inscripciones abiertas. Para más información contáctanos y asegura tu lugar.
                 </p>
             </div>
@@ -97,7 +98,7 @@ export const Horario = () => {
                             <h2 className=" text-sm font-medium text-blue">Escuela para el Emprendimiento</h2>
                             <h1 className="text-3xl font-bold text-gray-900">María Auxiliadora</h1>
                         </div>
-                        <p className="text-gray-600">
+                        <p className="text-gray-600 max-sm:text-sm">
                             Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed do eiusmod tempor incididunt
                             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                             ullamco laboris nisi ut aliquip ex ea commodo consequat.
