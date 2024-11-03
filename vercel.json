@@ -4,12 +4,5 @@
             "source": "/(.*)",
             "destination": "/"
         }
-    ],
-    "redirects": [
-        {
-            "source": "https://www.sc-mariaauxiliadora.vercel.app/",
-            "destination": "https://sc-mariaauxiliadora.vercel.app/",
-            "permanent": false
-        }
     ]
 }

@@ -14,13 +14,13 @@ export const Footer = () => {
                     </p>
                 </div>
                 <div className="flex gap-4">
-                    <a href="https://www.facebook.com/cclbupboleita">
+                    <a target='_blank' rel="noreferrer" title='Facebook' accessKey='facebook' href="https://www.facebook.com/cclbupboleita">
                         <FontAwesomeIcon className="w-5 h-5" icon={faFacebook} />
                     </a>
-                    <a href="https://www.instagram.com/cclbupboleita/">
+                    <a target='_blank' rel="noreferrer" title='Facebook' accessKey='facebook' href="https://www.instagram.com/cclbupboleita/">
                         <FontAwesomeIcon className="w-5 h-5" icon={faInstagram} />
                     </a>
-                    <a href="https://t.me/cclbupboleita">
+                    <a target='_blank' rel="noreferrer" title='Facebook' accessKey='facebook' href="https://t.me/cclbupboleita">
                         <FontAwesomeIcon className="w-5 h-5" icon={faTelegram} />
                     </a>
                 </div>
