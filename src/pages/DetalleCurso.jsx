@@ -108,7 +108,7 @@ export const DetalleCurso = () => {
                     <div className="mt-16">
                         <h2 className="text-2xl font-semibold mb-4">Instructor del curso</h2>
                         <div className="flex items-center gap-4">
-                            <img src={courses.filter((c) => c.title === title)[0].imageProfile} className="w-16 h-16 rounded-full" alt="" />
+                            <img src={courses.filter((c) => c.title === title)[0].imageProfile} className="object-cover w-16 h-16 rounded-full" alt="" />
                             <div>
                                 <h3 className="text-xl font-semibold mt-4 mb-2">{courses.filter((c) => c.title === title)[0].instructor}</h3>
                                 <p>{courses.filter((c) => c.title === title)[0].detalle_instructor}</p>
