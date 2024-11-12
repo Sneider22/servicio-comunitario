@@ -76,7 +76,7 @@ function headerDesktop() {
                     window.location.pathname === '/quienes-somos' ? 'py-2 px-5 bg-yellow bg-opacity-40 rounded-md ' : ''
                 } to="/quienes-somos">Quienes somos</NavLink>
                 <NavLink className={
-                    window.location.pathname === '/cursos' ? 'py-2 px-5 bg-yellow bg-opacity-40 rounded-md ' : ''
+                    window.location.pathname === '/cursos' || window.location.pathname === '/cursos/*' ? 'py-2 px-5 bg-yellow bg-opacity-40 rounded-md ' : ''
                 } to="/cursos">Cursos</NavLink>
                 <NavLink className={
                     window.location.pathname === '/testimonios' ? 'py-2 px-5 bg-yellow bg-opacity-40 rounded-md ' : ''

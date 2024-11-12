@@ -56,7 +56,7 @@ export const Horario = () => {
                     >
                         <div className="aspect-video relative  ">
                             <img
-                                loading='lazy' 
+                                loading='lazy'
                                 src={shift.image}
                                 alt="Students in classroom"
                                 className="object-fill w-full h-full"
@@ -99,9 +99,7 @@ export const Horario = () => {
                             <h1 className="text-3xl font-bold text-gray-900">María Auxiliadora</h1>
                         </div>
                         <p className="text-gray-600 max-sm:text-sm">
-                            Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            La Escuela para el Emprendimiento María Auxiliadora, fundada en 1994 por la comunidad salesiana, se enfoca en la capacitación laboral integral de jóvenes en Petare. En 2017, se trasladó a la nueva sede en el Centro Juvenil Don Bosco, donde continúa ofreciendo talleres especializados. Gracias a su labor, ha beneficiado a cientos de jóvenes en su formación y desarrollo profesional.
                         </p>
                         <NavLink to="/contacto" >
                             <Button variant="default" className="mt-4 bg-amber-400 hover:bg-amber-500 text-black">
