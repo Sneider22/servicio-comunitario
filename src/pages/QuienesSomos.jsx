@@ -70,7 +70,6 @@ export default function QuienesSomos() {
                         </ul>
                     </div>
                     <div className="mt-8">
-                        <h2 className="text-2xl font-semibold mb-8 border-b-2 pb-2 md:w-[25%] py-4 max-md:w-fit border-blue max-sm:text-xl">Instituciones aliadas</h2>
                         <div className="grid md:grid-cols-2   w-full max-md:grid-cols-1  gap-8 mb-8">
                             <div className="bg-white p-6 max-md:w-full rounded-lg  shadow-md shadow-[#b4b4b4] items-center flex flex-col">
                                 <img src={InspectoriaSalesiana} alt="Inspectoría Salesiana San Lucas" className="h-24 w-24 text-blue mb-4" />
