@@ -31,20 +31,20 @@ export default function Testimonios() {
             name: "Alezka Andrade",
             course: "Educación Inicial",
             year: "?",
-            content: "Mi experiencia fue una de las mejores experiencias de mi vida, mi curso que realicé fue de educación inicial con el apoyo de una excelente maestra y todos los profesores del curso, quiero hablar lo que significa estos cursos y hablo desde mi punto de vista. Los cursos ayudan mucho a ver la vida de otra manera, te sacan de donde estás hundido, ellos te sacan, porque ellos es lo que buscan, encaminarte.",
+            content: "Mi experiencia fue una de las mejores experiencias de mi vida, el curso que realicé fue de educación inicial con el apoyo de una excelente maestra y todos los profesores del curso, ellos me han ayudado mucho a ver la vida de otra manera.",
             rating: 5
         },
         {
             name: "John Olivares",
             course: "Mantenimiento de PC",
-            year: 2011 - 2012,
+            year: "2011 - 2012",
             content: "Realice el curso de matenimiento de pc durante entre el año 2011 y 2012, con este curso adquirí conocimientos suficientes que me han sido muy útil tanto en la computación como en otras áreas",
             rating: 4
         },
         {
             name: "Profesora Verónica Aranguren",
             course: "Promotor Infantil",
-            year: 2015 - 2018,
+            year: "2015 - 2018",
             content: "Mi experiencia fue muy gratificante a nivel personal, profesional y espiritual, hicimos un equipo de trabajo que mas que compañeros nos sentimos como familia, logrando muchos avances a nivel academico en cuanto a lo que ofreciamos a los estudiantes.",
             rating: 5
         },
