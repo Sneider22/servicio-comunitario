@@ -35,18 +35,18 @@ export default function Testimonios() {
             rating: 5
         },
         {
-            name: "Jhon Olivares",
-            course: "Mantenimiento de PC",
-            year: "2011 - 2012",
-            content: "Rrealice el curso de mantenimiento de pc de una duración de casi un año entre 2011 y 2012, para mí es un gran honor haber sido participante de lo que es este gran equipo de juventud y trabajo, ya que con ellos adquirí conocimientos suficientes, que hasta ahora me han sido muy útil tanto en la computación como en otras áreas",
-            rating: 4
-        },
-        {
             name: "Profesora Verónica Aranguren",
             course: "Promotor Infantil",
             year: "2015 - 2018",
             content: "Mi experiencia fue muy gratificante a nivel personal, profesional y espiritual, hicimos un equipo de trabajo que mas que compañeros nos sentimos como familia, logrando muchos avances a nivel academico en cuanto a lo que ofreciamos a los estudiantes.",
             rating: 5
+        },
+        {
+            name: "Jhon Olivares",
+            course: "Mantenimiento de PC",
+            year: "2011 - 2012",
+            content: "Realice el curso de mantenimiento de pc de una duración de casi un año entre 2011 y 2012, para mí es un gran honor haber sido participante de lo que es este gran equipo de juventud y trabajo, ya que con ellos adquirí conocimientos suficientes, que hasta ahora me han sido muy útil tanto en la computación como en otras áreas",
+            rating: 4
         },
         {
             name: "Juan Moreno",
