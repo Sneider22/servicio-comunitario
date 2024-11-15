@@ -1,5 +1,3 @@
-import { Route, Routes } from "react-router"
-import { BrowserRouter } from "react-router-dom"
 import NotFound from "./pages/404"
 import { Home } from "./pages/Home"
 import Cursos from "./pages/Courses"
@@ -8,11 +6,13 @@ import PreguntasFrecuentes from "./pages/FAQ"
 import Contacto from "./pages/Contacto"
 import QuienesSomos from "./pages/QuienesSomos"
 import { DetalleCurso } from "./pages/DetalleCurso"
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ScrollToTop from "./hooks/ScrollToTop"
 
 function App() {
-
   return (
-    <BrowserRouter>
+    <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/quienes-somos" element={<QuienesSomos />}></Route>
@@ -26,7 +26,7 @@ function App() {
         <Route path="*" element={<NotFound />}></Route>
 
       </Routes>
-    </BrowserRouter>
+    </Router>
   )
 }
 
