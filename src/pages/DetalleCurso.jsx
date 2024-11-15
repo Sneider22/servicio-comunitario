@@ -74,7 +74,7 @@ export const DetalleCurso = () => {
             icon: <FontAwesomeIcon icon={faBriefcase} className="h-8 w-8 text-blue  mr-2" />
         },
         {
-            title: "Gestión de redes",
+            title: "Gestión de Redes",
             description: "Aprende a promocionar negocios y productos en el entorno digital.",
             duration: "4 meses",
             students: 20,

@@ -51,7 +51,7 @@ export default function Cursos() {
             icon: <FontAwesomeIcon icon={faBriefcase} className="h-4 w-4 mr-2" />
         },
         {
-            title: "Marketing Digital",
+            title: "Gestión de Redes",
             description: "Aprende a promocionar negocios y productos en el entorno digital.",
             duration: "4 meses",
             students: 20,
