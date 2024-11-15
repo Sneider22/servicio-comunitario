@@ -25,6 +25,14 @@ export const DetalleCurso = () => {
             instructor: "Profesor A",
             imageProfile: Profesor,
             detalle_instructor: "El profesor A es un experto en computación y programación, con experiencia en el campo de la programación de aplicaciones web y de escritorio.",
+            contenido: [
+                "Manejo de Office",
+                "Word",
+                "Excel",
+                "Power Point",
+                "Edición básica de imagen",
+                "Estructura del computador"
+            ],
             icon: <FontAwesomeIcon icon={faLaptop} className="h-8 w-8 text-blue  mr-2" />
         },
         {
@@ -36,6 +44,14 @@ export const DetalleCurso = () => {
             instructor: "Profesor B",
             imageProfile: Profesor,
             detalle_instructor: "El profesor B es un experto en programación y diseño de interfaces. Con experiencia en el campo de la programación de interfaces de usuario.",
+            contenido: [
+                "Fundamentos del diseño",
+                "Uso de programas gráficos",
+                "Uso y manejo de Photoshop",
+                "Edición gráfica",
+                "Diseño corporativo",
+                "Fotomontaje digital"
+            ],
             icon: <FontAwesomeIcon icon={faPenNib} className="h-8 w-8 text-blue  mr-2" />
         },
         {
@@ -47,10 +63,18 @@ export const DetalleCurso = () => {
             instructor: "Profesor C",
             imageProfile: Profesor,
             detalle_instructor: "El profesor C tiene experiencia de la industria en roles de apoyo administrativo. Con una amplia experiencia trabajando en el sector financiero.",
+            contenido: [
+                "Procesos administrativos",
+                "Redacción comercial",
+                "Gestión administrativa",
+                "Operaciones bancarias",
+                "Manejo comercial de Office",
+                "Software administrativo"
+            ],
             icon: <FontAwesomeIcon icon={faBriefcase} className="h-8 w-8 text-blue  mr-2" />
         },
         {
-            title: "Marketing Digital",
+            title: "Gestión de redes",
             description: "Aprende a promocionar negocios y productos en el entorno digital.",
             duration: "4 meses",
             students: 20,
@@ -58,6 +82,14 @@ export const DetalleCurso = () => {
             instructor: "Profesor D",
             imageProfile: Profesor,
             detalle_instructor: "El profesor E es un experto en publicidad y marketing. Con una amplia experiencia trabajando para grandes empresas a nivel nacional.",
+            contenido: [
+                "Manejo de redes sociales",
+                "Funciones de un community manager",
+                "Gestión de comunidades",
+                "Marketing de contenidos",
+                "Grilla de contenidos",
+                "Herramientas social media"
+            ],
             icon: <FontAwesomeIcon icon={faChartSimple} className="h-8 w-8 text-blue  mr-2" />
         },
         {
@@ -69,6 +101,15 @@ export const DetalleCurso = () => {
             instructor: "Profesor E",
             imageProfile: Profesor,
             detalle_instructor: "El profesor E es un experto en publicidad y marketing. Con una amplia experiencia trabajando para grandes empresas a nivel nacional.",
+            contenido: [
+                "Producción publicitaria",
+                "Técnicas audiovisuales",
+                "Neuro Marketing",
+                "Teoría del color y la forma",
+                "Elementos del diseño",
+                "Estrategias creativas",
+                "Publicidad digital"
+            ],
             icon: <FontAwesomeIcon icon={faBullhorn} className="h-8 w-8 text-blue mr-2" />
         }
     ]
@@ -106,6 +147,17 @@ export const DetalleCurso = () => {
                     <button className="bg-yellow text-black  px-4 font-medium py-2 rounded-lg mt-8 ">¡Inscribirse ahora!</button>
 
                     <div className="mt-16">
+                        <h2 className="text-2xl font-semibold mb-4">Contenido del curso</h2>
+                        <div className="flex items-center h-40 px-4  rounded-lg  gap-4">
+                            <ul className=" text-lg text-pretty  list-disc">
+                                {
+                                    courses.filter((c) => c.title === title)[0].contenido.map((c) => <li key={c}>{c}</li>)
+                                }
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="mt-16">
                         <h2 className="text-2xl font-semibold mb-4">Instructor del curso</h2>
                         <div className="flex items-center h-40 px-4  rounded-lg  gap-4">
                             <img src={courses.filter((c) => c.title === title)[0].imageProfile} className="object-cover w-28 h-28 rounded-full" alt="" />
@@ -130,6 +182,6 @@ export const DetalleCurso = () => {
                 </div>
                 <Footer />
             </div>
-        </div>
+        </div >
     )
 }
