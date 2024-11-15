@@ -35,10 +35,10 @@ export default function Testimonios() {
             rating: 5
         },
         {
-            name: "John Olivares",
+            name: "Jhon Olivares",
             course: "Mantenimiento de PC",
             year: "2011 - 2012",
-            content: "Realice el curso de matenimiento de pc durante entre el año 2011 y 2012, con este curso adquirí conocimientos suficientes que me han sido muy útil tanto en la computación como en otras áreas",
+            content: "Rrealice el curso de mantenimiento de pc de una duración de casi un año entre 2011 y 2012, para mí es un gran honor haber sido participante de lo que es este gran equipo de juventud y trabajo, ya que con ellos adquirí conocimientos suficientes, que hasta ahora me han sido muy útil tanto en la computación como en otras áreas",
             rating: 4
         },
         {
@@ -49,10 +49,10 @@ export default function Testimonios() {
             rating: 5
         },
         {
-            name: "Laura Fernández",
-            course: "Publicidad",
-            year: 2023,
-            content: "El curso de Publicidad me dio una base sólida para entender cómo funciona la industria. Los proyectos prácticos fueron muy útiles y ahora tengo un portafolio para mostrar a potenciales empleadores.",
+            name: "Juan Moreno",
+            course: "Estudiante y docente",
+            year: "2012-2013",
+            content: "Fui parte de la capacitación laboral durante más o menos 1 año y medio, mi experiencia en el centro tanto como estudiante como docente fue una experiencia muy valiosa y la recuerdo con mucho cariño ya que me permitió desarrollarme y acercarme nuevamente a un ambiente que estaba dejando mucho de lado para ese entonces.",
             rating: 4
         }
     ]
