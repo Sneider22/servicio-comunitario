@@ -47,11 +47,11 @@ export const Main = () => {
             <div className="md:ml-[5rem] max-md:ml-[2rem] md:w-[90%] h-full flex flex-col justify-center text-black max-sm:mt-16 ">
                 <p className="bg-blue px-4 py-1 mb-1 max-md:w-[50%] md:w-[12rem] flex items-center justify-center text-white rounded-sm max-sm:text-xs">Cursos disponibles</p>
                 <p className="mb-4 text-sm font-medium">Octubre 2024 - Febrero 2025</p>
-                <h1 className="lg:text-5xl font-bold mb-4 max-md:text-2xl ">Capacitamos para el trabajo <br /> y educamos para la vida</h1>
+                <h1 className="lg:text-4xl md:text-3xl font-bold mb-4 max-md:text-2xl ">Capacitamos para el trabajo <br /> y educamos para la vida</h1>
                 <p className="lg:text-md mb-4 max-md:text-sm text-balance md:w-[40rem]">¡Desarrolla tus habilidades y potencia tu futuro con nuestros cursos en la Escuela para el Emprendimiento María Auxiliadora! Te invitamos a formar parte de nuestra oferta educativa del periodo   octubre 2024 - febrero 2025 en el Centro Don Bosco Boleita.</p>
                 <NavLink to="/cursos" className="bg-yellow w-40 rounded-md py-2 text-center text-black font-bold">¡Inscríbete ya!</NavLink>
 
-                <h2 className="text-2xl font-bold mt-8 mb-4">Cursos</h2>
+                <h2 className="text-xl font-bold mt-8 mb-4">Cursos</h2>
                 <div className="flex w-[80vw] items-center justify-start gap-4">
                     <FontAwesomeIcon id="left" className={showLeftArrow ? "hidden text-blue text-2xl" : "hidden"} onClick={() => handleScrollLeft()} icon={faChevronLeft} />
                     <div className="flex gap-4 max-md:overflow-x-scroll justify-start items-start" id="cursos">

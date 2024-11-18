@@ -64,17 +64,17 @@ export const Horario = () => {
                         </div>
                         <div className={`p-6 ${index === 0 ? "text-black" : "text-white"}`}>
                             <div className="flex items-center gap-2 mb-4 justify-between w-full">
-                                <h2 className="text-2xl font-bold " >{shift.title}</h2>
+                                <h2 className="text-2xl max-sm:text-xl font-bold " >{shift.title}</h2>
                                 <ul>
                                     <li className="font-medium  list-disc w-full">{shift.time}</li>
                                 </ul>
                             </div>
                             <div className="space-y-4">
-                                <h3 className="text-xl font-bold">Cursos Disponibles</h3>
+                                <h3 className="text-xl font-bold max-sm:text-lg">Cursos Disponibles</h3>
                                 <ul className="space-y-2">
                                     {shift.courses.map((course) => (
                                         <li key={course} className="flex items-center gap-2">
-                                            <span className="text-lg">• {course}</span>
+                                            <span className="text-lg max-sm:text-sm">• {course}</span>
                                         </li>
                                     ))}
                                 </ul>
