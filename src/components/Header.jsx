@@ -38,7 +38,7 @@ const headerMobile = () => {
     return (
         <nav className={` fixed top-0 left-0 right-0  z-20 bg-white transition ease-in duration-200 p-4 text-black ${isVisible ? 'translate-y-0' : 'translate-y-[-100%]'}`}>
             <div className="flex justify-between items-center">
-                <NavLink to="/" className="text-lg max-sm:text-sm ml-[1rem] font-bold flex items-center justify-center gap-4">
+                <NavLink to="/" className="text-lg max-sm:text-md ml-[1rem] font-bold flex items-center justify-center gap-4">
                     <img loading='lazy' src={Logo} className="w-16 h-16 rounded-full" alt="" />
                     Escuela María Auxiliadora
                 </NavLink>

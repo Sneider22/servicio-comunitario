@@ -23,7 +23,7 @@ export const Horario = () => {
         },
         {
             title: "Turno Tarde",
-            time: "1:30 pm - 5:00 pm",
+            time: "1:00 pm - 5:00 pm",
             bgColor: "bg-blue",
             image: Cursos,
             courses: [
