@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"
 import { Header } from "../components/Header"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBriefcase, faBullhorn, faCalendarAlt, faChartSimple, faCheck, faCheckCircle, faClock, faLaptop, faPenNib, faUsers } from "@fortawesome/free-solid-svg-icons"
+import { faBriefcase, faBullhorn, faCalendarAlt, faChartSimple, faCheckCircle, faClock, faLaptop, faPenNib, faUsers } from "@fortawesome/free-solid-svg-icons"
 import { Footer } from "../components/Footer"
 import Profesor from "../assets/Profesor.avif"
 export const DetalleCurso = () => {
@@ -91,6 +91,24 @@ export const DetalleCurso = () => {
                 "Herramientas social media"
             ],
             icon: <FontAwesomeIcon icon={faChartSimple} className="h-8 w-8 text-blue  mr-2" />
+        },
+        {
+            title: "Marketing Digital",
+            description: "Aprende a desarrollar estrategias de marketing digital para aumentar las ventas de tu negocio.",
+            duration: "5 meses",
+            students: 25,
+            startDate: "11/1/2024",
+            instructor: "Profesor E",
+            imageProfile: Profesor,
+            detalle_instructor: "El profesor E es un experto en publicidad y marketing. Con una amplia experiencia trabajando para grandes empresas a nivel nacional.",
+            contenido: [
+                "Posicionamiento SEO",
+                "Publicidad en Google",
+                "Publicidad en Facebook",
+                "Publicidad en Instagram",
+                "Publicidad en LinkedIn"
+            ],
+            icon: <FontAwesomeIcon icon={faBullhorn} className="h-8 w-8 text-blue mr-2" />
         },
         {
             title: "Publicidad",

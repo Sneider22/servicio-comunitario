@@ -59,6 +59,14 @@ export default function Cursos() {
             icon: <FontAwesomeIcon icon={faChartSimple} className="h-4 w-4 mr-2" />
         },
         {
+            title: "Marketing Digital",
+            description: "Conoce las estrategias de marketing en línea y cómo aplicarlas para aumentar las ventas.",
+            duration: "3 meses",
+            students: 15,
+            startDate: "1 de Diciembre, 2024",
+            icon: <FontAwesomeIcon icon={faBullhorn} className="h-4 w-4 mr-2" />
+        },
+        {
             title: "Publicidad",
             description: "Desarrolla estrategias publicitarias efectivas para diversos medios.",
             duration: "3 meses",

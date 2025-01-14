@@ -20,7 +20,6 @@ function App() {
         <Route path="/testimonios" element={<Testimonios />}></Route>
         <Route path="/preguntas-frecuentes" element={<PreguntasFrecuentes />}></Route>
         <Route path="/contacto" element={<Contacto />}></Route>
-
         <Route path="/cursos/:curso" element={<DetalleCurso />}></Route>
         {/* 404 */}
         <Route path="*" element={<NotFound />}></Route>
