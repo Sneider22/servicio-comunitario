@@ -29,7 +29,7 @@ export default function Cursos() {
         {
             title: "Computación",
             description: "Aprende las habilidades esenciales de informática para el mundo laboral moderno.",
-            duration: "3 meses",
+            duration: "5 meses",
             students: 20,
             startDate: "1 de Octubre, 2024",
             icon: <FontAwesomeIcon icon={faLaptop} className="h-4 w-4 mr-2" />
@@ -37,7 +37,7 @@ export default function Cursos() {
         {
             title: "Diseño Gráfico",
             description: "Domina las herramientas de diseño y crea impactantes piezas visuales.",
-            duration: "4 meses",
+            duration: "5 meses",
             students: 15,
             startDate: "15 de Octubre, 2024",
             icon: <FontAwesomeIcon icon={faPenNib} className="h-4 w-4 mr-2" />
@@ -45,7 +45,7 @@ export default function Cursos() {
         {
             title: "Asistente Administrativo",
             description: "Prepárate para roles de apoyo administrativo en diversos sectores empresariales.",
-            duration: "3 meses",
+            duration: "5 meses",
             students: 25,
             startDate: "1 de Noviembre, 2024",
             icon: <FontAwesomeIcon icon={faBriefcase} className="h-4 w-4 mr-2" />
@@ -53,7 +53,7 @@ export default function Cursos() {
         {
             title: "Gestión de Redes",
             description: "Aprende a promocionar negocios y productos en el entorno digital.",
-            duration: "4 meses",
+            duration: "5 meses",
             students: 20,
             startDate: "15 de Noviembre, 2024",
             icon: <FontAwesomeIcon icon={faChartSimple} className="h-4 w-4 mr-2" />
@@ -61,7 +61,7 @@ export default function Cursos() {
         {
             title: "Marketing Digital",
             description: "Conoce las estrategias de marketing en línea y cómo aplicarlas para aumentar las ventas.",
-            duration: "3 meses",
+            duration: "5 meses",
             students: 15,
             startDate: "1 de Diciembre, 2024",
             icon: <FontAwesomeIcon icon={faBullhorn} className="h-4 w-4 mr-2" />
@@ -69,7 +69,7 @@ export default function Cursos() {
         {
             title: "Publicidad",
             description: "Desarrolla estrategias publicitarias efectivas para diversos medios.",
-            duration: "3 meses",
+            duration: "5 meses",
             students: 15,
             startDate: "1 de Diciembre, 2024",
             icon: <FontAwesomeIcon icon={faBullhorn} className="h-4 w-4 mr-2" />

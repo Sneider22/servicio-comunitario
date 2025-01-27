@@ -7,7 +7,6 @@ import Profesor from "../assets/Profesor.avif"
 export const DetalleCurso = () => {
     let title = window.location.pathname.split("/")[2]
     title = decodeURI(title)
-    console.log(title)
     const questions = [
         "Contenido actualizado y relevante para la industria",
         "Proyectos prácticos y aplicables al mundo real",
