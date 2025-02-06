@@ -17,7 +17,7 @@ export const Footer = () => {
                     <a target='_blank' rel="noreferrer" title='Facebook' accessKey='facebook' href="https://www.facebook.com/profile.php?id=100063996347409">
                         <FontAwesomeIcon className="w-5 h-5" icon={faFacebook} />
                     </a>
-                    <a target='_blank' rel="noreferrer" title='Facebook' accessKey='facebook' href="https://www.instagram.com/cclbupboleita/">
+                    <a target='_blank' rel="noreferrer" title='Instagram' accessKey='instagram' href="https://www.instagram.com/cclbupboleita/">
                         <FontAwesomeIcon className="w-5 h-5" icon={faInstagram} />
                     </a>
                     <a target='_blank' rel="noreferrer" title='Telegram' accessKey='telegram' href="https://t.me/cclbupboleita">
