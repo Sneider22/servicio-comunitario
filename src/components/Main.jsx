@@ -49,7 +49,7 @@ export const Main = () => {
                 <p className="mb-4 text-sm font-medium">Octubre 2024 - Febrero 2025</p>
                 <h1 className="lg:text-4xl md:text-3xl font-bold mb-4 max-md:text-2xl ">Capacitamos para el trabajo <br /> y educamos para la vida</h1>
                 <p className="lg:text-md mb-4 max-md:text-sm text-balance md:w-[40rem]">¡Desarrolla tus habilidades y potencia tu futuro con nuestros cursos en la Escuela para el Emprendimiento María Auxiliadora! Te invitamos a formar parte de nuestra oferta educativa del periodo   octubre 2024 - febrero 2025 en el Centro Don Bosco Boleita.</p>
-                <NavLink to="/cursos" className="bg-yellow w-40 rounded-md py-2 text-center text-black font-bold">¡Inscríbete ya!</NavLink>
+                <NavLink to="/cursos" className="bg-yellow w-40 rounded-md py-2 text-center text-black font-bold">¡Conoce nuestros cursos!</NavLink>
 
                 <h2 className="text-xl font-bold mt-8 mb-4">Cursos</h2>
                 <div className="flex w-[80vw] items-center justify-start gap-4">
