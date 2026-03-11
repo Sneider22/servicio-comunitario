@@ -1,7 +1,7 @@
 # SERVICIO COMUNITARIO - 7MO SEMESTRE
 
 ## 🏫 Plataforma Educativa Escuela para el Emprendimiento Maria Auxiliadora 
-## Proyecto Frontend
+Proyecto Frontend
 
  Interfaz moderna para mostrar cursos, horarios y contacto. Ideal para instituciones educativas o proyectos de formación.
 
