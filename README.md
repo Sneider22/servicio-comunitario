@@ -1,4 +1,4 @@
-# SERVICIO COMUNITARIO 🚀✨
+# SERVICIO COMUNITARIO - 7MO SEMESTRE
 
 ## 🏫 Plataforma Educativa — Proyecto Frontend
 
@@ -8,7 +8,7 @@
 - Componentes reutilizables: Header, Footer, Main, Horario
 - Páginas: Home, Courses, DetalleCurso, Contacto, QuienesSomos, FAQ, Testimonios
 - Hooks personalizados: `ScrollToTop`
-- Assets gráficos: Profesor.avif
+- Assets gráficos
 
 ### 🛠️ Tecnologías y Herramientas
 - React (JSX)
