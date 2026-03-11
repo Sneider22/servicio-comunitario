@@ -1,8 +1,34 @@
-# React + Vite
+# SERVICIO COMUNITARIO 🚀✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🏫 Plataforma Educativa — Proyecto Frontend
 
-Currently, two official plugins are available:
+ Interfaz moderna para mostrar cursos, horarios y contacto. Ideal para instituciones educativas o proyectos de formación.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📦 Estructura y Funcionalidad
+- Componentes reutilizables: Header, Footer, Main, Horario
+- Páginas: Home, Courses, DetalleCurso, Contacto, QuienesSomos, FAQ, Testimonios
+- Hooks personalizados: `ScrollToTop`
+- Assets gráficos: Profesor.avif
+
+### 🛠️ Tecnologías y Herramientas
+- React (JSX)
+- Vite ⚡
+- Tailwind CSS 🎨
+- PostCSS
+- ESLint
+- Vercel (deploy)
+
+### 🎯 Enfoque
+UI ligera, modular y fácil de adaptar. Pensada para catálogo de cursos, detalles y contacto.
+
+### 📁 Estructura de carpetas
+- `src/components/` — Componentes principales
+- `src/pages/` — Páginas del sitio
+- `src/assets/` — Imágenes y recursos
+- `src/hooks/` — Hooks personalizados
+
+### 🚦 Estado
+Proyecto listo para usar, modificar o desplegar. Ideal para repositorios públicos.
+
+---
+
