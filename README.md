@@ -1,34 +1,34 @@
 # SERVICIO COMUNITARIO - 7MO SEMESTRE
 
-## 🏫 Plataforma Educativa Escuela para el Emprendimiento Maria Auxiliadora 
+## Plataforma Educativa Escuela para el Emprendimiento Maria Auxiliadora 
 Proyecto Frontend
 
  Interfaz moderna para mostrar cursos, horarios y contacto. Ideal para instituciones educativas o proyectos de formación.
 
-### 📦 Estructura y Funcionalidad
+### Estructura y Funcionalidad
 - Componentes reutilizables: Header, Footer, Main, Horario
 - Páginas: Home, Courses, DetalleCurso, Contacto, QuienesSomos, FAQ, Testimonios
 - Hooks personalizados: `ScrollToTop`
 - Assets gráficos
 
-### 🛠️ Tecnologías y Herramientas
+### Tecnologías y Herramientas
 - React (JSX)
-- Vite ⚡
-- Tailwind CSS 🎨
+- Vite 
+- Tailwind CSS 
 - PostCSS
 - ESLint
 - Vercel (deploy)
 
-### 🎯 Enfoque
+### Enfoque
 UI ligera, modular y fácil de adaptar. Pensada para catálogo de cursos, detalles y contacto.
 
-### 📁 Estructura de carpetas
+### Estructura de carpetas
 - `src/components/` — Componentes principales
 - `src/pages/` — Páginas del sitio
 - `src/assets/` — Imágenes y recursos
 - `src/hooks/` — Hooks personalizados
 
-### 🚦 Estado
+### Estado
 Proyecto listo para usar, modificar o desplegar. Ideal para repositorios públicos.
 
 ---
