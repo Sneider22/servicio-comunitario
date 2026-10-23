@@ -28,3 +28,4 @@ UI ligera, modular y fácil de adaptar. Pensada para catálogo de cursos, detall
 - `src/assets/` — Imágenes y recursos
 - `src/hooks/` — Hooks personalizados
 
+7mo Semestre 2024 (Serv. Comunitario) 
